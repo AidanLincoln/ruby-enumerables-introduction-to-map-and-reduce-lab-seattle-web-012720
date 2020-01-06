@@ -52,12 +52,13 @@ end
   
 def reduce_to_all_true(source_array)
   i = 0
-  boolean = ''
+  boolean = true
   while i < source_array.length do
     if source_array[i]
-      boolean = true
+      i += 1
     else
-    
+      boolean = false
+      i = source_array.lenth
     end  
   end
   return boolean
