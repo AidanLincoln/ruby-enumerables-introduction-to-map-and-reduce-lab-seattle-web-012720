@@ -58,7 +58,7 @@ def reduce_to_all_true(source_array)
       i += 1
     else
       boolean = false
-      i = source_array.lenth
+      i = source_array.length
     end  
   end
   return boolean
